@@ -1,4 +1,86 @@
 {
+  "Week 0": [
+    {
+      "question": "Which of the following does not imply the features of an organization as studied in organizational behaviour?",
+      "options": [
+        "Composed of people",
+        "Consciously coordinated",
+        "Groups or gangs",
+        "Common goals"
+      ],
+      "answer": "Groups or gangs"
+    },
+    {
+      "question": "The evolution of the field of Organizational Behaviour can be attributed to many disciplines such as:",
+      "options": [
+        "Psychology, anthropology and Physics",
+        "Philosophy, psychology and sociology",
+        "Philately, anthropology and psychology",
+        "Philosophy, chemistry and psychology"
+      ],
+      "answer": "Philosophy, psychology and sociology"
+    },
+    {
+      "question": "At the base of Maslow’s need hierarchy lies:",
+      "options": [
+        "Psychological needs",
+        "Philosophical needs",
+        "Esteem needs",
+        "Physiological needs"
+      ],
+      "answer": "Physiological needs"
+    },
+    {
+      "question": "Biases in decision making can be reduced by:",
+      "options": [
+        "Stereotyping",
+        "Looking for information that disconfirms your existing beliefs",
+        "Taking help of prejudice",
+        "Taking example of the favourite group"
+      ],
+      "answer": "Looking for information that disconfirms your existing beliefs"
+    },
+    {
+      "question": "What is the primary purpose of Job Rotation in an organization?",
+      "options": [
+        "Enhancing employee specialization",
+        "Reducing employee morale",
+        "Broadening employee skills and knowledge",
+        "Limiting employee growth opportunities"
+      ],
+      "answer": "Broadening employee skills and knowledge"
+    },
+    {
+      "question": "Which of the following is a key aspect of Job Enrichment?",
+      "options": [
+        "Reducing employee responsibilities",
+        "Narrowing the scope of tasks",
+        "Adding more meaningful tasks and responsibilities to a job",
+        "Simplifying job roles to improve efficiency"
+      ],
+      "answer": "Adding more meaningful tasks and responsibilities to a job"
+    },
+    {
+      "question": "Which of the following is a potential benefit of Employee Involvement?",
+      "options": [
+        "Reduced innovation and creativity",
+        "Lower productivity levels",
+        "Improved employee morale and commitment",
+        "Increased hierarchical barriers in the organization"
+      ],
+      "answer": "Improved employee morale and commitment"
+    },
+    {
+      "question": "Job Rotation involves:",
+      "options": [
+        "Assigning an employee to a variety of tasks within the same job role",
+        "Switching employees across different departments or positions",
+        "Eliminating job positions to create flexibility",
+        "Limiting employees to specific repetitive tasks"
+      ],
+      "answer": "Switching employees across different departments or positions"
+    }
+  ],
   "Week 1": [
     {
       "question": "According to Max Weber, how would you define an organization?",

@@ -39,6 +39,8 @@ function changeChapter(chapter) {
 }
 
 function loadQuestion() {
+    const feedback = document.getElementById('feedback');
+    feedback.textContent = '';
     const chapterData = quizData[currentChapter];
     if (chapterData && chapterData[currentQuestionIndex]) {
         const questionData = chapterData[currentQuestionIndex];

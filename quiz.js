@@ -8,6 +8,14 @@ document.addEventListener("DOMContentLoaded", function () {
 let currentQuestionIndex = 0;
 let currentChapter;
 let quizData;
+let autoNext = true;
+
+function toggleAutoNext() {
+    autoNext = !autoNext;
+    const button = document.getElementById('autoNextToggle');
+    button.textContent = autoNext ? 'Auto Next: On' : 'Auto Next: Off';
+    button.style.backgroundColor = autoNext ? 'green' : 'red';
+}
 
 function initializeQuiz(data) {
     quizData = data;
@@ -86,6 +94,12 @@ function checkAnswer(selectedOption, correctAnswer) {
     const feedback = document.getElementById('feedback');
     feedback.textContent = selectedOption === correctAnswer ? 'Correct!' : 'Wrong, try again!';
     feedback.style.color = selectedOption === correctAnswer ? 'green' : 'red';
+    if(autoNext && selectedOption === correctAnswer) {
+        // next question in 100ms
+        setTimeout(() => {
+            loadNextQuestion();
+        }, 200);
+    }
 
     // make the correct answer green background
     const optionsUl = document.getElementById('options');
@@ -162,7 +176,6 @@ function shuffleChaptersAndQuestions() {
     loadQuestion();
 }
 let shiftDown = false;
-// take keystoke input to navigate between questions and choose the answer
 document.addEventListener('keydown', function (event) {
     if (event.key === 'Shift') shiftDown = true;
     if (event.key === 'ArrowRight' || event.key === ' ') {

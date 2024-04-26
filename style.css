@@ -56,7 +56,7 @@ li button:hover {
     background-color: #e9ecef;
 }
 
-#nextButton, #previousButton, #shuffleQuestions, #shuffleChapters {
+#nextButton, #autoNextToggle, #previousButton, #shuffleQuestions, #shuffleChapters {
     background-color: #007bff;
     color: white;
     border: none;
@@ -68,7 +68,7 @@ li button:hover {
     display: inline-block;
 }
 
-#nextButton:hover, #previousButton:hover, #shuffleQuestions:hover, #shuffleChapters:hover {
+#nextButton:hover, #autoNextToggle:hover, #previousButton:hover, #shuffleQuestions:hover, #shuffleChapters:hover {
     background-color: #0056b3;
 }
 
@@ -95,7 +95,7 @@ li button:hover {
         font-size: 16px;
     }
 
-    #nextButton, #previousButton, #shuffleQuestions, #shuffleChapters {
+    #nextButton, #autoNextToggle, #previousButton, #shuffleQuestions, #shuffleChapters {
         padding: 8px 15px;
         font-size: 14px;
     }
@@ -115,7 +115,7 @@ li button:hover {
         box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
     }
 
-    #nextButton, #previousButton, #shuffleQuestions, #shuffleChapters {
+    #nextButton, #autoNextToggle, #previousButton, #shuffleQuestions, #shuffleChapters {
         font-size: 14px;
         padding: 6px 10px;
         width: 100%;

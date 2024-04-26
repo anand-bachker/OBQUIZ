@@ -76,6 +76,15 @@ function loadNextQuestion() {
     loadQuestion();
 }
 
+function loadPreviousQuestion() {
+    if (currentQuestionIndex > 0) {
+        currentQuestionIndex--; // Move to the previous question
+    } else {
+        currentQuestionIndex = quizData[currentChapter].length - 1; // Move to the last question if it's the first question
+    }
+    loadQuestion();
+}
+
 function shuffleCurrentQuestions() {
     quizData[currentChapter].sort(() => Math.random() - 0.5);
     currentQuestionIndex = 0; // Start from the first shuffled question

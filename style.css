@@ -62,7 +62,7 @@ li button:hover {
     background-color: #e9ecef;
 }
 
-#nextButton, #shuffleQuestions, #shuffleChapters {
+#nextButton, #previousButton, #shuffleQuestions, #shuffleChapters {
     background-color: #007bff;
     color: white;
     border: none;
@@ -101,14 +101,14 @@ li button:hover {
         font-size: 16px;
     }
 
-    #nextButton, #shuffleQuestions, #shuffleChapters {
+    #nextButton, #previousButton, #shuffleQuestions, #shuffleChapters {
         padding: 8px 15px;
         font-size: 14px;
     }
 }
 
 @media (max-width: 480px) {
-    #chapter-select, #nextButton, #shuffleQuestions, #shuffleChapters {
+    #chapter-select, #nextButton, #previousButton, #shuffleQuestions, #shuffleChapters {
         font-size: 14px;
     }
 

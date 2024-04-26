@@ -134,6 +134,20 @@ function loadPreviousQuestion() {
     loadQuestion();
 }
 
+function loadNextChapter() {
+    const chapters = Object.keys(quizData);
+    const currentChapterIndex = chapters.indexOf(currentChapter);
+    const nextChapterIndex = currentChapterIndex < chapters.length - 1 ? currentChapterIndex + 1 : 0;
+    changeChapter(chapters[nextChapterIndex]);
+}
+
+function loadPreviousChapter() {
+    const chapters = Object.keys(quizData);
+    const currentChapterIndex = chapters.indexOf(currentChapter);
+    const previousChapterIndex = currentChapterIndex > 0 ? currentChapterIndex - 1 : chapters.length - 1;
+    changeChapter(chapters[previousChapterIndex]);
+}
+
 function shuffleCurrentQuestions() {
     const availableQuestions = quizData[currentChapter];
     currentQuestionIndex = Math.floor(Math.random() * availableQuestions.length);
@@ -147,28 +161,35 @@ function shuffleChaptersAndQuestions() {
     currentQuestionIndex = Math.floor(Math.random() * availableQuestions.length);
     loadQuestion();
 }
-
+let shiftDown = false;
 // take keystoke input to navigate between questions and choose the answer
-
 document.addEventListener('keydown', function (event) {
-    if (event.key === 'ArrowRight') {
-        loadNextQuestion();
+    if (event.key === 'Shift') shiftDown = true;
+    if (event.key === 'ArrowRight' || event.key === ' ') {
+        event.preventDefault();
+        if(shiftDown) loadNextChapter();
+        else loadNextQuestion();
     } else if (event.key === 'ArrowLeft') {
-        loadPreviousQuestion();
+        event.preventDefault();
+        if(shiftDown) loadPreviousChapter();
+        else loadPreviousQuestion();
     } else if (event.key === 'ArrowUp') {
+        event.preventDefault();
         shuffleCurrentQuestions();
     } else if (event.key === 'ArrowDown') {
+        event.preventDefault();
         shuffleChaptersAndQuestions();
     }
     else {
-        // Select the answer
         const optionsUl = document.getElementById('options');
-
-        // if a then select first option
         const key = event.key.toLowerCase();
-        const keyIndex = key.charCodeAt(0) - 97;
+        const keyIndex = key.length === 1 ? key.charCodeAt(0) - 97 : -1;
         if (keyIndex >= 0 && keyIndex < optionsUl.childNodes.length) {
             optionsUl.childNodes[keyIndex].firstChild.click();
         }
     }
+});
+
+document.addEventListener('keyup', function (event) {
+    if (event.key === 'Shift') shiftDown = false;
 });

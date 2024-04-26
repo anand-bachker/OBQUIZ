@@ -5,16 +5,25 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch(error => console.error('Error loading the questions:', error));
 });
 
+const Colors = {
+    'lightGreen': '#28a745',
+    'green': 'green',
+    'lightRed': '#FF6347',
+    'red': 'red',
+};
+
 let currentQuestionIndex = 0;
 let currentChapter;
 let quizData;
 let autoNext = true;
+const shuffleModeList = ["Shuffle off", "Shuffle questions", "Shuffle chapters and questions"];
+let shuffleModeIndex = 0;
 
 function toggleAutoNext() {
     autoNext = !autoNext;
     const button = document.getElementById('autoNextToggle');
     button.textContent = autoNext ? 'Auto Next: On' : 'Auto Next: Off';
-    button.style.backgroundColor = autoNext ? 'green' : 'red';
+    button.style.backgroundColor = autoNext ?  Colors.lightGreen : Colors.lightRed;
 }
 
 function initializeQuiz(data) {
@@ -26,6 +35,8 @@ function initializeQuiz(data) {
     });
     populateChapters();
     changeChapter(Object.keys(data)[0]); // Start with the first chapter
+    const shuffleButton = document.getElementById('shuffleToggle');
+    shuffleButton.textContent = shuffleModeList[shuffleModeIndex];
 }
 
 function populateChapters() {
@@ -97,7 +108,7 @@ function checkAnswer(selectedOption, correctAnswer) {
     if(autoNext && selectedOption === correctAnswer) {
         // next question in 100ms
         setTimeout(() => {
-            loadNextQuestion();
+            performAutoNext();
         }, 200);
     }
 
@@ -175,6 +186,22 @@ function shuffleChaptersAndQuestions() {
     currentQuestionIndex = Math.floor(Math.random() * availableQuestions.length);
     loadQuestion();
 }
+
+function toggleShuffleMode() {
+    shuffleModeIndex = (shuffleModeIndex + 1) % shuffleModeList.length;
+    const shuffleButton = document.getElementById('shuffleToggle');
+    shuffleButton.textContent = shuffleModeList[shuffleModeIndex];
+    if (shuffleModeIndex === 0) shuffleButton.style.backgroundColor = Colors.lightRed;
+    else shuffleButton.style.backgroundColor = Colors.lightGreen;
+}
+
+
+function performAutoNext(){
+    if (shuffleModeIndex === 0) loadNextQuestion();
+    else if (shuffleModeIndex === 1) shuffleCurrentQuestions();
+    else shuffleChaptersAndQuestions();
+}
+
 let shiftDown = false;
 document.addEventListener('keydown', function (event) {
     if (event.key === 'Shift') shiftDown = true;

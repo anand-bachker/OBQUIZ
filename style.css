@@ -74,7 +74,7 @@ li button:hover {
     display: inline-block;
 }
 
-#nextButton:hover, #shuffleQuestions:hover, #shuffleChapters:hover {
+#nextButton:hover, #previousButton:hover, #shuffleQuestions:hover, #shuffleChapters:hover {
     background-color: #0056b3;
 }
 

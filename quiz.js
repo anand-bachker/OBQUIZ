@@ -183,14 +183,15 @@ gestureZone.addEventListener('touchstart', function (event) {
 gestureZone.addEventListener('touchend', function (event) {
     touchendX = event.changedTouches[0].screenX;
     handleGesture();
-}
-    , false);
+}, false);
 
 function handleGesture() {
-    if (touchendX < touchstartX) {
+    const sensitivity = 100;
+    if (touchendX <= touchstartX - sensitivity) {
         loadNextQuestion();
     }
-    if (touchendX > touchstartX) {
+
+    else if (touchendX >= touchstartX + sensitivity) {
         loadPreviousQuestion();
     }
 }

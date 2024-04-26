@@ -32,9 +32,28 @@ function populateChapters() {
     if(currentChapter) select.value = currentChapter; // Set the current chapter in the dropdown
 }
 
+function populateQuestions() {
+    const select = document.getElementById('question-select');
+    select.innerHTML = ''; // Clear previous options
+    quizData[currentChapter].forEach((question, index) => {
+        const option = document.createElement('option');
+        option.value = index;
+        option.textContent = `Question ${index + 1}`;
+        select.appendChild(option);
+    });
+    select.value = currentQuestionIndex; // Set the current question in the dropdown
+}
+
+
 function changeChapter(chapter) {
     currentChapter = chapter;
     currentQuestionIndex = 0; // Start from the first question in the chapter
+    populateQuestions();
+    loadQuestion();
+}
+
+function changeQuestion(index) {
+    currentQuestionIndex = index;
     loadQuestion();
 }
 
@@ -47,6 +66,8 @@ function loadQuestion() {
         document.getElementById('chapter-name').textContent = `Chapter: ${currentChapter}`;
         document.getElementById('question-number').textContent = `Question ${questionData.originalIndex + 1}`;
         document.getElementById('question').textContent = questionData.question;
+        document.getElementById('question-select').value = currentQuestionIndex;
+        document.getElementById('chapter-select').value = currentChapter;
         const optionsUl = document.getElementById('options');
         optionsUl.innerHTML = '';
         
@@ -116,19 +137,15 @@ function loadPreviousQuestion() {
 }
 
 function shuffleCurrentQuestions() {
-    quizData[currentChapter].sort(() => Math.random() - 0.5);
-    currentQuestionIndex = 0; // Start from the first shuffled question
+    const availableQuestions = quizData[currentChapter];
+    currentQuestionIndex = Math.floor(Math.random() * availableQuestions.length);
     loadQuestion();
 }
 
 function shuffleChaptersAndQuestions() {
     const chapters = Object.keys(quizData);
-    chapters.sort(() => Math.random() - 0.5);
-    Object.keys(quizData).forEach(chapter => {
-        quizData[chapter].sort(() => Math.random() - 0.5);
-    });
-    currentChapter = chapters[0];
-    currentQuestionIndex = 0;
-    populateChapters();
-    changeChapter(currentChapter);
+    currentChapter = chapters[Math.floor(Math.random() * chapters.length)];
+    const availableQuestions = quizData[currentChapter];
+    currentQuestionIndex = Math.floor(Math.random() * availableQuestions.length);
+    loadQuestion();    
 }

@@ -17,7 +17,7 @@ body {
     box-sizing: border-box;
 }
 
-#chapter-select {
+#chapter-select, #question-select {
     padding: 8px;
     margin-bottom: 20px;
     width: 100%;
@@ -108,7 +108,7 @@ li button:hover {
 }
 
 @media (max-width: 480px) {
-    #chapter-select, #nextButton, #previousButton, #shuffleQuestions, #shuffleChapters {
+    #chapter-select, #question-select, #nextButton, #previousButton, #shuffleQuestions, #shuffleChapters {
         font-size: 14px;
     }
 

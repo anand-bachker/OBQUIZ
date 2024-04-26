@@ -172,26 +172,3 @@ document.addEventListener('keydown', function (event) {
         }
     }
 });
-
-let touchstartX = 0;
-let touchendX = 0;
-const gestureZone = document.getElementById('quiz-container');
-gestureZone.addEventListener('touchstart', function (event) {
-    touchstartX = event.changedTouches[0].screenX;
-}, false);
-
-gestureZone.addEventListener('touchend', function (event) {
-    touchendX = event.changedTouches[0].screenX;
-    handleGesture();
-}, false);
-
-function handleGesture() {
-    const sensitivity = document.documentElement.clientWidth / 3;
-    if (touchendX <= touchstartX - sensitivity) {
-        loadNextQuestion();
-    }
-
-    else if (touchendX >= touchstartX + sensitivity) {
-        loadPreviousQuestion();
-    }
-}

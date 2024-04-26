@@ -1253,13 +1253,13 @@
       "answer": "Encouraging open communication"
     },
     {
-      "question": "How can leaders foster psychological safety?",
+      "question": "How can leaders foster psychological safety?  i) Making clear why employee voice matters ii) Giving necessary punishment for poor inputs iii) Establishing the infallibility of the leader iv) Inviting inputs v) Giving productive response",
       "options": [
-        "Making clear why employee voice matters",
-        "Giving necessary punishment for poor inputs",
-        "Establishing the infallibility of the leader",
-        "Inviting inputs",
-        "Giving productive response"
+        "i only",
+        "i, ii and iv and v",
+        "iv and v",
+        "i, iv and v",
+        "i, iii, iv and v"
       ],
       "answer": "i, iv and v"
     },

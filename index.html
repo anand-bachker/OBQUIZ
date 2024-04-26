@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <select id="chapter-select" onchange="changeChapter(this.value)">
+            <!-- Chapter options will be dynamically inserted here -->
+        </select>
+        <div id="chapter-name"></div>
+        <div id="question-number"></div>
+        <div id="question"></div>
+        <ul id="options"></ul>
+        <button id="nextButton" onclick="loadNextQuestion()">Next Question</button>
+        <button id="shuffleQuestions" onclick="shuffleCurrentQuestions()">Shuffle Questions</button>
+        <button id="shuffleChapters" onclick="shuffleChaptersAndQuestions()">Shuffle All</button>
+        <p id="feedback"></p>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:anand-bachker/OBQUIZ.git
+git push -u origin main

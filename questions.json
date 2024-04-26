@@ -1,0 +1,1272 @@
+{
+  "Week1": [
+    {
+      "question": "According to Max Weber, how would you define an organization?",
+      "options": [
+        "A random gathering of individuals",
+        "A social entity that is rationally organized and coordinated to achieve specific goals and objectives",
+        "A group of people with similar interests",
+        "A chaotic assembly of people",
+        "A natural formation of individuals"
+      ],
+      "answer": "A social entity that is rationally organized and coordinated to achieve specific goals and objectives"
+    },
+    {
+      "question": "What was the key focus of the Hawthorne Studies?",
+      "options": [
+        "Analyzing time and motion in the workplace",
+        "Identifying the one best way to perform tasks",
+        "Examining the impact of lighting on worker productivity",
+        "Standardizing work processes for increased efficiency",
+        "Assessing individual competencies in a team setting"
+      ],
+      "answer": "Examining the impact of lighting on worker productivity"
+    },
+    {
+      "question": "What is the common theme in both Max Weber's and Chester Barnard's definitions of an organization?",
+      "options": [
+        "Anarchy and chaos",
+        "Rational organization and coordination",
+        "Isolation and individualism",
+        "Spontaneous collaboration",
+        "Random interactions"
+      ],
+      "answer": "Rational organization and coordination"
+    },
+    {
+      "question": "How does Kurt Lewin's model define an individual's behavior?",
+      "options": [
+        "A random set of actions",
+        "A pre-determined set of responses",
+        "A function of the person (P) and their environment (E)",
+        "An isolated occurrence",
+        "A developmental change"
+      ],
+      "answer": "A function of the person (P) and their environment (E)"
+    },
+    {
+      "question": "Which of the following gives an accurate definition of 'behavior'?",
+      "options": [
+        "Exclusively as developmental changes",
+        "Internally coordinated responses to external stimuli",
+        "Random and unpredictable actions",
+        "Responses easily understood as developmental changes",
+        "Coordinated responses excluding external stimuli"
+      ],
+      "answer": "Internally coordinated responses to external stimuli"
+    },
+    {
+      "question": "In Kurt Lewin's model, what does the environment (E) include?",
+      "options": [
+        "Only physical surroundings",
+        "Only social surroundings",
+        "Both physical and social surroundings",
+        "History and personality",
+        "Isolated stimuli"
+      ],
+      "answer": "Both physical and social surroundings"
+    },
+    {
+      "question": "Which key principles are associated with Frederick W. Taylor's Scientific Management?",
+      "options": [
+        "Creative improvisation and task diversity",
+        "Standardization, and One Best Way",
+        "Unpredictable work processes and tools",
+        "Variation and adaptability in task execution",
+        "Identifying multiple methods for each task"
+      ],
+      "answer": "Standardization, and One Best Way"
+    },
+    {
+      "question": "Which of the following is/are NOT an issue of the modern day workplace?",
+      "options": ["1 and 3", "2 only", "2 and 4", "3 only"],
+      "answer": "2 only"
+    },
+    {
+      "question": "Individual differences does NOT refer to which one of the following?",
+      "options": [
+        "Traits",
+        "Cultural features",
+        "Contributions",
+        "Behavioral characteristics",
+        "Demographic characteristics"
+      ],
+      "answer": "Contributions"
+    },
+    {
+      "question": "What is the significance of acknowledging individual differences in the context of managing competencies?",
+      "options": [
+        "It is unrelated to competency management strategies.",
+        "It serves as the first step in managing one's own and subordinate's competencies.",
+        "Acknowledging individual differences hinders effective competency assessment.",
+        "It is essential only for self-competency, not for general competency.",
+        "Individual differences have no impact on professional effectiveness."
+      ],
+      "answer": "It serves as the first step in managing one's own and subordinate's competencies."
+    }
+  ],
+  "Week2": [
+    {
+      "question": "Workforce diversity means similarities and differences among employees in terms of age, cultural background, physical abilities and disabilities, race, religion, gender, and sexual orientation.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Diversity makes the workforce homogeneous.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Diversity at the workplace is important solely because it is a legal concern.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "One effective diversity management strategy is to recruit people from different genders to showcase a diverse team.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "A multicultural organization can be defined as one that 'Reflects the contributions and interests of diverse cultural and social groups in its mission, operations, and product or service'.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Which one of the following is an individual approach to manage diversity?",
+      "options": [
+        "Those who may not think they need to learn about diversity can refrain from participating in diversity initiatives",
+        "Communicating better",
+        "Developing hard-to-change and strong views about other communities",
+        "Cultivating strong in-group feelings for member of one’s own community",
+        "Trying to understand others from your own experiences"
+      ],
+      "answer": "Communicating better"
+    },
+    {
+      "question": "One of the ways organizations can foster diversity is:",
+      "options": [
+        "Providing a trusted counselor, coach or advisor who provides advice and assistance",
+        "One type of group can be trained for an entry-level skill or how to more effectively do their existing job",
+        "Keeping family worries away from mind once one enters the workplace",
+        "Using general aptitude tests as the only basis for selection",
+        "Fixed time schedule for everyone"
+      ],
+      "answer": "Providing a trusted counselor, coach or advisor who provides advice and assistance"
+    },
+    {
+      "question": "Which of the following is true for deep-level diversity?",
+      "options": [
+        "Observable attributes and characteristics of individuals that are readily apparent, typically at first glance",
+        "May not necessarily reflect an individual's identity, experiences, or perspectives",
+        "It is related to race and ethnicity, gender, age etc.",
+        "It is related to abilities, language, and religion",
+        "It is related to values, attitudes, experiences, skills and knowledge"
+      ],
+      "answer": "It is related to values, attitudes, experiences, skills and knowledge"
+    },
+    {
+      "question": "Diversity is called a double-edged sword because:",
+      "options": [
+        "It is desirable but no one is interested",
+        "It is legal but people don’t believe in the need for it",
+        "It is a modern day concern which is superficially dealt with",
+        "It has great advantages for the organization like better decisions and enhanced learning and growth and at the same time it can lead to inter-group conflicts",
+        "It is a hassle-free way to get away with conflicts"
+      ],
+      "answer": "It has great advantages for the organization like better decisions and enhanced learning and growth and at the same time it can lead to inter-group conflicts"
+    },
+    {
+      "question": "Which of the following can be related to neurodiversity?",
+      "options": [
+        "A random gathering of individuals",
+        "Promotes the exclusion of neurological differences for better team performance",
+        "A group of people with similar",
+        "A chaotic assembly of people",
+        "A natural formation of individuals"
+      ],
+      "answer": "A group of people with similar It celebrates the natural diversity of neurological differences in human beings"
+    }
+  ],
+  "Week3": [
+    {
+      "question": "A process by which individuals organize and interpret their _______ impressions in order to give meaning to their environment is called perception.",
+      "options": [
+        "Perceptual",
+        "Voluntary",
+        "Involuntary",
+        "Awkward",
+        "Sensory"
+      ],
+      "answer": "Sensory"
+    },
+    {
+      "question": "Self-concept can be best described in terms an individual’s:",
+      "options": [
+        "Self-esteem",
+        "Self-sabotage",
+        "Self-evaluations",
+        "In-group",
+        "Surroundings"
+      ],
+      "answer": "Self-evaluations"
+    },
+    {
+      "question": "Self-concept complexity refers to:",
+      "options": [
+        "The degree to which the individual’s identities require similar personal attributes",
+        "The degree to which an individual’s self-concept is clear",
+        "Distinct roles or identities individuals perceive about themselves",
+        "The degree to which the individual’s identities require dissimilar personal attributes",
+        "Confidently defined, and stable identities"
+      ],
+      "answer": "Distinct roles or identities individuals perceive about themselves"
+    },
+    {
+      "question": "Inherent motivation to have a positive self-concept is called:",
+      "options": [
+        "Self-motivation",
+        "Self-enhancement",
+        "Self-concepts",
+        "Self-glorification",
+        "self-clarity"
+      ],
+      "answer": "Self-enhancement"
+    },
+    {
+      "question": "Factors in the perceiver which influences perception are:",
+      "options": [
+        "Experience, expectations and exactness",
+        "Sounds, size and background",
+        "Time and work setting",
+        "Attitudes, motives and expectations",
+        "Interests, novelty and similarity"
+      ],
+      "answer": "Attitudes, motives and expectations"
+    },
+    {
+      "question": "Stereotypes are formed through: i) Shared beliefs across Society ii) Fact finding iii) Distorted truth iv) High status in society v) Media and Cultural Influence",
+      "options": [
+        "i, ii and iii",
+        "iii, iv and v",
+        "i, iii, and v",
+        "iii only",
+        "iii and v"
+      ],
+      "answer": "i, iii, and v"
+    },
+    {
+      "question": "The thinking that all Indians have similar attitudes and characteristics refer to the process of:",
+      "options": [
+        "Categorization",
+        "Homogenization",
+        "Specification",
+        "Differentiation",
+        "Unification"
+      ],
+      "answer": "Homogenization"
+    },
+    {
+      "question": "Overemphasis on internal causes for a behavior is ________.",
+      "options": [
+        "Self-serving bias",
+        "Correspondence bias",
+        "Distinctiveness",
+        "Consensus",
+        "Consistency"
+      ],
+      "answer": "Correspondence bias"
+    },
+    {
+      "question": "After receiving high praise for her exceptional presentation skills, colleagues automatically assumed Sarah was also proficient in project management and leadership also. Here, the assumptions can be termed as:",
+      "options": [
+        "Horn effect",
+        "Stereotype",
+        "Recency effect",
+        "Halo effect",
+        "False consensus effect"
+      ],
+      "answer": "Halo effect"
+    },
+    {
+      "question": "In the Jo-Hari window technique, the blind area represents aspects of a person:",
+      "options": [
+        "Not known to anyone",
+        "Not known to the person themselves but known to others",
+        "Not known to others",
+        "Neither known to the person nor to others",
+        "Known to all but not discussed"
+      ],
+      "answer": "Not known to the person themselves but known to others"
+    }
+  ],
+  "Week4": [
+    {
+      "question": "Inconsistencies between the emotions people feel and the emotions they project is called:",
+      "options": [
+        "Emotional intelligence",
+        "Cognitive dissonance",
+        "Emotional labor",
+        "Emotional dissonance",
+        "Affect"
+      ],
+      "answer": "Emotional dissonance"
+    },
+    {
+      "question": "James-Lange theory of emotion says that:",
+      "options": [
+        "Emotional experience is a reaction to bodily events",
+        "Physiological arousal and emotional experience are produced simultaneously",
+        "Emotions’ interpretations are based on cues in the environment",
+        "Emotion is personality dependent",
+        "Emotions are uncontrollable reactions to others’ behavior"
+      ],
+      "answer": "Emotional experience is a reaction to bodily events"
+    },
+    {
+      "question": "_________ stressors are related with workload whereas ________ stressors keep you from reaching your goals.",
+      "options": [
+        "Negative, Positive",
+        "Hindrance, Challenge",
+        "Compensatory, Hindrance",
+        "Challenge, Hindrance",
+        "Chronic, Acute"
+      ],
+      "answer": "Challenge, Hindrance"
+    },
+    {
+      "question": "A set of skills that to contribute to the accurate appraisal and expression of emotion in oneself and in others, the effective regulation of emotion in self and others is:",
+      "options": [
+        "Facial-feedback",
+        "Emotional intelligence",
+        "Facial affect program",
+        "Emotional labor",
+        "Mood dependent behavior"
+      ],
+      "answer": "Emotional intelligence"
+    },
+    {
+      "question": "An unpleasant psychological process that occurs in response to environmental pressures is __________.",
+      "options": [
+        "Emotional labor",
+        "Anxiety",
+        "Breakdown",
+        "Burnout",
+        "Stress"
+      ],
+      "answer": "Stress"
+    },
+    {
+      "question": "The symptoms of stress can be categorized broadly as:",
+      "options": [
+        "Physiological, psychological, behavioral",
+        "Behavioral, emotional and cognitive",
+        "Physiological, scientific and behavioral",
+        "Psychosocial, economic and behavioral",
+        "Psychological, emotional and physiological"
+      ],
+      "answer": "Physiological, psychological, behavioral"
+    },
+    {
+      "question": "Which of the following measures can be taken at an individual level for managing stress?",
+      "options": [
+        "Improved employee selection and job placement",
+        "Training",
+        "Redesign of jobs",
+        "Increased employee involvement",
+        "Expanded social support networks"
+      ],
+      "answer": "Expanded social support networks"
+    },
+    {
+      "question": "When people behave in ways that threaten the organization, it is called ________?",
+      "options": [
+        "Differentiated behavior",
+        "Cooperative behavior",
+        "Deviant behavior",
+        "Dissonance",
+        "Democratic behavior"
+      ],
+      "answer": "Deviant behavior"
+    },
+    {
+      "question": "One of the techniques of emotion regulation can be:",
+      "options": [
+        "Thinking about more unpleasant things",
+        "Suppressing one’s opinions",
+        "Reappraising the situation",
+        "Distancing from the situation and people",
+        "Withdrawing from speaking"
+      ],
+      "answer": "Reappraising the situation"
+    },
+    {
+      "question": "Negative affectivity is ______ for the organization because it can lead to _____ :",
+      "options": [
+        "Useful, employee involvement",
+        "Difficult, diversity",
+        "Useful, ideas",
+        "Harmful, safety issues",
+        "Acceptable, creativity"
+      ],
+      "answer": "Harmful, safety issues"
+    }
+  ],
+  "Week5": [
+    {
+      "question": "What is a key motivator for individuals in shaping their self-concept within an organizational context?",
+      "options": [
+        "Feeling undervalued",
+        "External recognition only",
+        "Desire to feel valued",
+        "Fearing failure",
+        "Strict adherence to situational factors"
+      ],
+      "answer": "Desire to feel valued"
+    },
+    {
+      "question": "Which concept relates to a person's general belief about their control over life events?",
+      "options": [
+        "Self-esteem",
+        "Self-efficacy",
+        "Motivation levels",
+        "Locus of control",
+        "Role perceptions"
+      ],
+      "answer": "Locus of control"
+    },
+    {
+      "question": "Which dimension of the Big Five Model refers to an individual's measure of reliability and includes traits like responsibility and organization?",
+      "options": [
+        "Extraversion",
+        "Agreeableness",
+        "Conscientiousness",
+        "Emotional stability",
+        "Openness to experience"
+      ],
+      "answer": "Conscientiousness"
+    },
+    {
+      "question": "According to Freud, which component of the psyche operates on the reality principle and seeks to balance the conflicting demands of the id and superego?",
+      "options": ["Id", "Ego", "Superego", "Conscience", "Emotion"],
+      "answer": "Ego"
+    },
+    {
+      "question": "Which method of assessing personality involves interpreting responses to ambiguous stimuli to reveal aspects of an individual's personality?",
+      "options": [
+        "Behavioral observations",
+        "Self-report inventories",
+        "Trait theories",
+        "Interviews",
+        "Projective tests"
+      ],
+      "answer": "Projective tests"
+    },
+    {
+      "question": "Which of the following characteristics is typically associated with Type A personalities?",
+      "options": [
+        "Relaxed, laid-back, and patient",
+        "Tolerant, adaptive, and creative",
+        "Highly competitive, assertive, and time-conscious",
+        "Less focused on achievement and ambition",
+        "More flexible and less prone to stress"
+      ],
+      "answer": "Highly competitive, assertive, and time-conscious"
+    },
+    {
+      "question": "The Big Five Inventory (BFI) assesses personality by measuring which broad dimensions of personality?",
+      "options": [
+        "Openness, Honesty, Assertiveness, Timeliness, Emotional stability",
+        "Attentiveness, Compassion, Extroversion, Gratitude, Adaptability",
+        "Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism",
+        "Confidence, Sociability, Altruism, Industriousness, Resilience",
+        "Flexibility, Self-discipline, Enthusiasm, Empathy, Self-assurance"
+      ],
+      "answer": "Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism"
+    },
+    {
+      "question": "In the Thematic Apperception Test (TAT), what do individuals do when presented with ambiguous pictures or scenes?",
+      "options": [
+        "Identify specific objects in the images",
+        "Describe the images in detail",
+        "Analyze the emotional content of the images",
+        "Create stories about what is happening in the images",
+        "Memorize the scenes for later recall"
+      ],
+      "answer": "Create stories about what is happening in the images"
+    },
+    {
+      "question": "Which aspects are considered during the analysis of responses in the Rorschach test?",
+      "options": [
+        "Colour perception and emotional intensity",
+        "Content, location, determinants, populars, and special scores",
+        "Time taken to respond and specific imagery details",
+        "Physical characteristics of inkblots and personal associations",
+        "Familiarity with inkblot patterns and personal background information"
+      ],
+      "answer": "Content, location, determinants, populars, and special scores"
+    },
+    {
+      "question": "According to the studies mentioned, which personality dimension is significantly associated with individual innovation behaviour?",
+      "options": [
+        "Agreeableness",
+        "Conscientiousness",
+        "Extraversion",
+        "Emotional stability (low Neuroticism)",
+        "Openness to experience"
+      ],
+      "answer": "Openness to experience"
+    }
+  ],
+  "Week6": [
+    {
+      "question": "Which value represents a belief in personal liberties and autonomy?",
+      "options": ["Compassion", "Justice", "Equality", "Integrity", "Freedom"],
+      "answer": "Freedom"
+    },
+    {
+      "question": "What role do values play in assisting employees when faced with complex decisions within an organization?",
+      "options": [
+        "Determining the salary structure",
+        "Providing a moral compass",
+        "Setting technological standards",
+        "Influencing marketing strategies",
+        "Directing employee hierarchies"
+      ],
+      "answer": "Providing a moral compass"
+    },
+    {
+      "question": "Which source is likely to have a significant impact on an individual's values during adolescence and young adulthood?",
+      "options": [
+        "Family",
+        "Religion and Spirituality",
+        "Education",
+        "Personal Reflection",
+        "Peers and Social Groups"
+      ],
+      "answer": "Peers and Social Groups"
+    },
+    {
+      "question": "What distinguishes terminal values from instrumental values in the Rokeach Value Survey?",
+      "options": [
+        "Terminal values are cultural, while instrumental values are personal.",
+        "Terminal values are specific, while instrumental values are abstract.",
+        "Terminal values are ultimate life goals, while instrumental values are preferred modes of behaviour.",
+        "Terminal values guide behaviour, while instrumental values represent end-states.",
+        "Terminal values are ethical principles, while instrumental values are societal norms."
+      ],
+      "answer": "Terminal values are ultimate life goals, while instrumental values are preferred modes of behaviour."
+    },
+    {
+      "question": "Which cultural characteristic is associated with High Power Distance cultures?",
+      "options": [
+        "Emphasis on equality and open communication.",
+        "Valuing individual goals and autonomy.",
+        "Respect for hierarchy and authority.",
+        "Preference for explicit verbal communication.",
+        "Embrace of change, progress, and innovation."
+      ],
+      "answer": "Respect for hierarchy and authority."
+    },
+    {
+      "question": "In which type of culture is explicit verbal communication highly valued?",
+      "options": [
+        "High-Context Cultures",
+        "Individualistic Cultures",
+        "Polychronic Cultures",
+        "Tradition-oriented Cultures",
+        "Collectivistic Cultures"
+      ],
+      "answer": "Individualistic Cultures"
+    },
+    {
+      "question": "What constitutes an essential aspect of Person-Job Fit (PJ Fit)?",
+      "options": [
+        "Alignment between personal values and organizational culture.",
+        "Compatibility between individual skills and the specific job requirements.",
+        "Development of job crafting techniques.",
+        "Adherence to organizational hierarchy and authority.",
+        "Prioritizing collectivist cultures over individualistic cultures."
+      ],
+      "answer": "Compatibility between individual skills and the specific job requirements."
+    },
+    {
+      "question": "What is a potential outcome of poor person-job fit within an organization?",
+      "options": [
+        "Enhanced organizational commitment",
+        "Increased employee motivation",
+        "Improved team dynamics",
+        "Decreased job satisfaction",
+        "Higher levels of innovation"
+      ],
+      "answer": "Decreased job satisfaction"
+    },
+    {
+      "question": "Person-organization fit (PO fit) primarily focuses on the alignment between:",
+      "options": [
+        "Personal ambitions and organizational goals",
+        "Individual values, goals, and organizational values, goals, and culture",
+        "Workplace skills and personal development",
+        "Job preferences and salary expectations",
+        "Team dynamics and employee autonomy"
+      ],
+      "answer": "Individual values, goals, and organizational values, goals, and culture"
+    },
+    {
+      "question": "In the context of person-organization fit and career decision making, what influence does a perceived intolerant macro-culture have on employees?",
+      "options": [
+        "Encourages seeking promotion or lateral moves within the organization",
+        "Decreases stress and enhances self-efficacy",
+        "Facilitates adapting to incongruent gender-related behaviours",
+        "Discourages any career progression within the organization",
+        "Promotes an environment of diverse gender-related behaviours"
+      ],
+      "answer": "Discourages any career progression within the organization"
+    }
+  ],
+  "Week7": [
+    {
+      "question": "What are the potential benefits of implementing job rotation in organizations?",
+      "options": [
+        "Decreased boredom, increased motivation, enhanced understanding of work contribution",
+        "Increased turnover rates, reduced employee satisfaction, decreased organizational performance",
+        "Limited skill range, decreased adaptability to changes, reduced organizational performance",
+        "Increased workplace conflicts, higher absenteeism, decreased productivity",
+        "Enhanced job specialization, reduced training costs, increased organizational rigidity"
+      ],
+      "answer": "Decreased boredom, increased motivation, enhanced understanding of work contribution"
+    },
+    {
+      "question": "Which statement accurately describes the impact of job enrichment on employee satisfaction?",
+      "options": [
+        "Job enrichment consistently leads to decreased employee satisfaction.",
+        "Job enrichment primarily benefits employees in lower-level positions.",
+        "Job enrichment may lead to increased job satisfaction, especially when the tasks are challenging.",
+        "Job enrichment is irrelevant to employee satisfaction as it primarily focuses on organizational performance.",
+        "Job enrichment often results in increased employee turnover due to higher job demands."
+      ],
+      "answer": "Job enrichment may lead to increased job satisfaction, especially when the tasks are challenging."
+    },
+    {
+      "question": "How does job design influence employee motivation and performance?",
+      "options": [
+        "Job design has no impact on employee motivation and performance.",
+        "Well-designed jobs typically lead to decreased employee motivation and performance.",
+        "Poorly designed jobs often result in increased employee motivation and performance.",
+        "Job design directly affects employee motivation and performance by shaping task characteristics.",
+        "Employee motivation and performance are solely determined by external factors unrelated to job design."
+      ],
+      "answer": "Job design directly affects employee motivation and performance by shaping task characteristics."
+    },
+    {
+      "question": "What is the primary focus of the Job Characteristics Model (JCM)?",
+      "options": [
+        "The Job Characteristics Model primarily focuses on organizational structure and hierarchy.",
+        "The Job Characteristics Model aims to reduce employee autonomy and decision-making.",
+        "The Job Characteristics Model emphasizes external motivators such as rewards and punishments.",
+        "The Job Characteristics Model seeks to identify key job dimensions that affect employee motivation and performance.",
+        "The Job Characteristics Model is primarily concerned with employee personality traits and preferences."
+      ],
+      "answer": "The Job Characteristics Model seeks to identify key job dimensions that affect employee motivation and performance."
+    },
+    {
+      "question": "Which of the following is a characteristic of a job with high task identity?",
+      "options": [
+        "High task identity means that employees have limited control over the completion of their tasks.",
+        "High task identity implies that tasks are fragmented and disconnected from the overall objective.",
+        "High task identity allows employees to see the results of their efforts from start to finish.",
+        "High task identity indicates that employees have minimal involvement in decision-making processes.",
+        "High task identity often leads to decreased job satisfaction due to increased workload."
+      ],
+      "answer": "High task identity allows employees to see the results of their efforts from start to finish."
+    },
+    {
+      "question": "What is the significance of job crafting in the context of employee engagement?",
+      "options": [
+        "Job crafting has no impact on employee engagement as it is solely focused on task completion.",
+        "Job crafting allows employees to customize their job roles and responsibilities, leading to increased engagement.",
+        "Job crafting primarily involves decreasing job autonomy to improve employee engagement.",
+        "Job crafting is only relevant in high-stress work environments.",
+        "Job crafting is a management technique aimed at reducing employee engagement to lower turnover rates."
+      ],
+      "answer": "Job crafting allows employees to customize their job roles and responsibilities, leading to increased engagement."
+    },
+    {
+      "question": "How does job rotation contribute to employee development?",
+      "options": [
+        "Job rotation primarily leads to decreased employee development opportunities.",
+        "Job rotation allows employees to specialize in a narrow range of tasks, limiting their development.",
+        "Job rotation enhances employee development by exposing them to various roles and responsibilities.",
+        "Job rotation isolates employees from learning opportunities within the organization.",
+        "Job rotation is irrelevant to employee development as it only focuses on organizational needs."
+      ],
+      "answer": "Job rotation enhances employee development by exposing them to various roles and responsibilities."
+    },
+    {
+      "question": "What role does job enlargement play in enhancing employee motivation?",
+      "options": [
+        "Job enlargement reduces employee motivation by increasing job complexity.",
+        "Job enlargement has no impact on employee motivation as it primarily focuses on organizational efficiency.",
+        "Job enlargement enhances employee motivation by increasing the variety of tasks within a job.",
+        "Job enlargement decreases employee motivation by narrowing the scope of tasks.",
+        "Job enlargement isolates employees from challenging tasks, reducing motivation."
+      ],
+      "answer": "Job enlargement enhances employee motivation by increasing the variety of tasks within a job."
+    },
+    {
+      "question": "Which of the following is a potential drawback of job enrichment?",
+      "options": [
+        "Job enrichment increases employee motivation and job satisfaction.",
+        "Job enrichment leads to decreased employee autonomy and control.",
+        "Job enrichment may result in increased stress and job burnout.",
+        "Job enrichment has no impact on employee performance.",
+        "Job enrichment allows employees to specialize in a narrow range of tasks."
+      ],
+      "answer": "Job enrichment may result in increased stress and job burnout."
+    },
+    {
+      "question": "What is the primary goal of flexible work arrangements?",
+      "options": [
+        "The primary goal of flexible work arrangements is to decrease employee autonomy.",
+        "The primary goal of flexible work arrangements is to increase workplace conflicts.",
+        "The primary goal of flexible work arrangements is to limit employee access to work-life balance.",
+        "The primary goal of flexible work arrangements is to provide employees with greater control over their work schedules.",
+        "The primary goal of flexible work arrangements is to increase employee turnover rates."
+      ],
+      "answer": "The primary goal of flexible work arrangements is to provide employees with greater control over their work schedules."
+    }
+  ],
+  "Week8": [
+    {
+      "question": "What are the strengths associated with implementing job rotation in organizations?",
+      "options": [
+        "Decreased motivation, limited skill development, inflexible scheduling",
+        "Increased boredom, limited understanding of work contribution, reduced organizational performance",
+        "Reduced flexibility, increased layoffs, reduced job vacancies",
+        "Reduced boredom, increased motivation, enhanced understanding of work contribution",
+        "Limited skill range, decreased adaptability to changes, reduced organizational performance"
+      ],
+      "answer": "Reduced boredom, increased motivation, enhanced understanding of work contribution"
+    },
+    {
+      "question": "Which statement accurately describes the impact of job enlargement on employee satisfaction and commitment?",
+      "options": [
+        "Job enlargement consistently leads to increased employee satisfaction and commitment.",
+        "Enlarged jobs often reduce efficiency but always enhance employee satisfaction.",
+        "Downsizing and job enlargement typically result in higher employee satisfaction and commitment.",
+        "Job enlargement may not necessarily improve employee satisfaction and commitment, especially in contexts like downsizing.",
+        "Enlarging jobs leads to decreased anxiety and higher levels of employee commitment."
+      ],
+      "answer": "Job enlargement may not necessarily improve employee satisfaction and commitment, especially in contexts like downsizing."
+    },
+    {
+      "question": "How do cultural differences impact the acceptance of employee involvement programs?",
+      "options": [
+        "All cultures universally accept and readily adopt employee involvement programs.",
+        "High power-distance cultures like India embrace employee involvement initiatives more than low power-distance cultures.",
+        "Cultural differences have no bearing on the acceptance of employee involvement programs.",
+        "Traditional values have no impact on the effectiveness of participative decision-making.",
+        "Chinese workers are uniformly satisfied with participative management regardless of cultural values."
+      ],
+      "answer": "High power-distance cultures like India embrace employee involvement initiatives more than low power-distance cultures."
+    },
+    {
+      "question": "Which factors are crucial for the success of participative management initiatives?",
+      "options": [
+        "Employee hierarchy and positional authority",
+        "Disengagement from relevant issues and low competence",
+        "Lack of trust and confidence among team members",
+        "Relevant engagement, employee competence, and mutual trust",
+        "Excessive decision-making power vested solely in superiors"
+      ],
+      "answer": "Relevant engagement, employee competence, and mutual trust"
+    },
+    {
+      "question": "What is a key benefit of motivation strategies in relation to employee retention?",
+      "options": [
+        "Decreased employee productivity",
+        "Increased workplace conflicts",
+        "Higher turnover rates",
+        "Reduced satisfaction and commitment",
+        "Greater likelihood of retaining top talent"
+      ],
+      "answer": "Greater likelihood of retaining top talent"
+    },
+    {
+      "question": "What are some of the claimed benefits associated with the implementation of flexitime?",
+      "options": [
+        "Increased workplace conflicts and hostility towards management",
+        "Rise in traffic congestion around work sites",
+        "Higher overtime expenses and tardiness",
+        "Reduced absenteeism and increased productivity",
+        "Decreased autonomy and responsibility for employees"
+      ],
+      "answer": "Reduced absenteeism and increased productivity"
+    },
+    {
+      "question": "What is a potential advantage of membership and seniority-based rewards?",
+      "options": [
+        "Directly motivating job performance",
+        "Encouraging poor performers to seek more suitable jobs",
+        "Easily attracting good performers to better-paying jobs",
+        "Creating a work culture valued by Millennials and Gen Z employees",
+        "Discouraging employees from quitting due to deferred bonuses"
+      ],
+      "answer": "Discouraging employees from quitting due to deferred bonuses"
+    },
+    {
+      "question": "What does organizational justice primarily encompass?",
+      "options": [
+        "Employee productivity and engagement",
+        "The organizational structure and hierarchy",
+        "Perceived fairness in policies, procedures, and outcomes",
+        "The financial resources allocated to employees",
+        "Workplace diversity and inclusion initiatives"
+      ],
+      "answer": "Perceived fairness in policies, procedures, and outcomes"
+    },
+    {
+      "question": "What is the primary focus of procedural justice in decision-making?",
+      "options": [
+        "Determining the ultimate outcome of a decision.",
+        "Establishing the criteria for fair promotions.",
+        "Addressing the perceived fairness of the decision-making process.",
+        "Ensuring complete equality in every decision.",
+        "Providing preferential treatment based on gender and race."
+      ],
+      "answer": "Addressing the perceived fairness of the decision-making process."
+    },
+    {
+      "question": "Which statement best characterizes self-monitoring in the context of performance improvement?",
+      "options": [
+        "It primarily benefits employees in outdoor jobs such as landscaping.",
+        "Self-monitoring relies solely on immediate and observable feedback from the job.",
+        "All individuals are inherently capable of effectively self-monitoring their work progress.",
+        "Feedback mechanisms need to be established for individuals unable to observe their work output easily.",
+        "Self-monitoring is ineffective without frequent managerial intervention."
+      ],
+      "answer": "Feedback mechanisms need to be established for individuals unable to observe their work output easily."
+    }
+  ],
+  "Week9": [
+    {
+      "question": "What are the key components of learning?",
+      "options": [
+        "Observation, experimentation, and practice",
+        "Comprehension, application, retention, and transfer",
+        "Prior knowledge, motivation, and feedback",
+        "Interaction with the environment and formal education",
+        "Dynamic process and lifelong acquisition of skills"
+      ],
+      "answer": "Comprehension, application, retention, and transfer"
+    },
+    {
+      "question": "How does implicit knowledge differ from explicit knowledge?",
+      "options": [
+        "Implicit knowledge relies on demonstration and imitation.",
+        "Explicit knowledge cannot be expressed verbally.",
+        "Implicit knowledge is context-independent and abstract.",
+        "Explicit knowledge is solely individualistic in nature.",
+        "Implicit knowledge is easily shared and conveyed linguistically."
+      ],
+      "answer": "Implicit knowledge relies on demonstration and imitation."
+    },
+    {
+      "question": "According to the passage, which statement accurately characterizes learning from novelty?",
+      "options": [
+        "Novel tasks inhibit learning potential due to their complexity.",
+        "Experience in routine tasks does not contribute to learning.",
+        "Efficient reading involves conscious control of perceptual operations.",
+        "Learning progresses from familiarity to detail in a novice-to-expert sequence.",
+        "Tacit knowledge has no impact on instinctive action in complex situations."
+      ],
+      "answer": "Learning progresses from familiarity to detail in a novice-to-expert sequence."
+    },
+    {
+      "question": "What is a key element of experiential learning?",
+      "options": [
+        "Passive engagement with the environment",
+        "A linear progression from reflection to experimentation",
+        "Avoidance of theories and reflections on experiences",
+        "Preference for one specific step among the learning phases",
+        "Engagement, reflection, theorizing, and experimentation as integral steps"
+      ],
+      "answer": "Engagement, reflection, theorizing, and experimentation as integral steps"
+    },
+    {
+      "question": "What is the conditioned stimulus (CS) in Pavlov's classical conditioning experiment with the dogs?",
+      "options": [
+        "Meat powder",
+        "Salivation",
+        "Surgical procedure",
+        "Bell",
+        "Dog"
+      ],
+      "answer": "Bell"
+    },
+    {
+      "question": "In classical conditioning, what is the conditioned response (CR) observed in Pavlov's experiment when the bell is rung alone?",
+      "options": [
+        "Salivation",
+        "Dog's behaviour",
+        "Surgical response",
+        "Meat powder",
+        "Neutral stimulus"
+      ],
+      "answer": "Salivation"
+    },
+    {
+      "question": "According to Social Learning Theory, which of the following is crucial for learning through observation and modeling?",
+      "options": [
+        "Punishment",
+        "Genetic predisposition",
+        "Reinforcement",
+        "Imitation",
+        "Classical conditioning"
+      ],
+      "answer": "Imitation"
+    },
+    {
+      "question": "According to Albert Bandura's self-efficacy theory, which of the following best defines self-efficacy?",
+      "options": [
+        "Belief in one's ability to succeed in specific situations",
+        "Confidence in one's physical appearance",
+        "Trust in external validation from others",
+        "Perception of overall intelligence",
+        "Willingness to conform to societal norms"
+      ],
+      "answer": "Belief in one's ability to succeed in specific situations"
+    },
+    {
+      "question": "What is one of the shortcomings associated with traditional pay systems?",
+      "options": [
+        "Direct impact on employee performance",
+        "Effective reinforcement for all behaviours",
+        "Consistent improvement in employee satisfaction",
+        "Reinforcement limited to pay check receipt",
+        "Enhancement of supervisory feedback"
+      ],
+      "answer": "Reinforcement limited to pay check receipt"
+    },
+    {
+      "question": "What did a comprehensive review of surveys find regarding the value employees place on various rewards?",
+      "options": [
+        "Financial rewards were considered most valuable across all surveys",
+        "Personalized recognition from managers was ranked lowest among rewards",
+        "Nonfinancial rewards were ranked higher than financial ones by employees",
+        "Employees rarely prioritize recognition as an important reward",
+        "Managers rarely provide any form of recognition to employees"
+      ],
+      "answer": "Nonfinancial rewards were ranked higher than financial ones by employees"
+    }
+  ],
+  "Week10": [
+    {
+      "question": "Creativity and innovation are different in the way that:",
+      "options": [
+        "Innovation has value but creativity doesn’t",
+        "Creativity is possessed by artists and innovation by scientists",
+        "Creativity is related to idea generation and innovation is about implementation",
+        "Creativity is individual generated and innovation is team generated",
+        "Creativity is not required in organizations but innovation is required"
+      ],
+      "answer": "Creativity is related to idea generation and innovation is about implementation"
+    },
+    {
+      "question": "Creativity is positively related to:",
+      "options": [
+        "Divergent thinking",
+        "Convergent thinking",
+        "Mental set",
+        "Attitudinal change",
+        "Deductive reasoning"
+      ],
+      "answer": "Divergent thinking"
+    },
+    {
+      "question": "The stages of creativity are in which of the following order?",
+      "options": [
+        "Incubation, preparation, insight, illumination, verification",
+        "Preparation, incubation, insight, verification, implementation",
+        "Preparation, insight, incubation, illumination, verification",
+        "Insight, verification, preparation, incubation, insight",
+        "Incubation, preparation, verification, insight, implementation"
+      ],
+      "answer": "Preparation, incubation, insight, verification, implementation"
+    },
+    {
+      "question": "Which of the following, based on evidence, is NOT characteristic of creative people?",
+      "options": [
+        "Subject-knowledge",
+        "Intelligence to synthesize information",
+        "A cluster of charming traits",
+        "Values that support independent imagination",
+        "Persistence in the face of resistance"
+      ],
+      "answer": "A cluster of charming traits"
+    },
+    {
+      "question": "Repeated tests for differences between the desired outcome and what currently exists is called __________.",
+      "options": [
+        "Problem analysis",
+        "Mental set",
+        "Functional fixedness",
+        "Means-end analysis",
+        "Implementation"
+      ],
+      "answer": "Means-end analysis"
+    },
+    {
+      "question": "Cognitive complexity refers to:",
+      "options": [
+        "Reframing the problem in a unique way and generating different approaches to the issue",
+        "The ability to produce responses that are based primarily on knowledge and logic",
+        "Preference for elaborate, intricate, and complex stimuli and thinking patterns",
+        "Redefining the problem and revisiting old projects after a gap of some time",
+        "Ranges from art classes to impromptu storytelling and acting"
+      ],
+      "answer": "Preference for elaborate, intricate, and complex stimuli and thinking patterns"
+    },
+    {
+      "question": "Positive organizational behaviour is the application of positive oriented human resource strengths and psychological capacities that can be _______, ________, and effectively managed for performance improvement in today’s workplace?",
+      "options": [
+        "Referred, developed",
+        "Traced, protected",
+        "Designed, developed",
+        "Informed, practised",
+        "Measured, developed"
+      ],
+      "answer": "Measured, developed"
+    },
+    {
+      "question": "Psychological capital is a higher-order core factor made up of?",
+      "options": [
+        "Efficacy, hope, optimism, resiliency",
+        "Hope, optimism, resistance, intelligence",
+        "Personality, efficiency, optimism, responsiveness",
+        "Personality, honor, optimism, efficiency",
+        "Effectiveness, hope, optimism, resiliency"
+      ],
+      "answer": "Efficacy, hope, optimism, resiliency"
+    },
+    {
+      "question": "One of the levels of positive psychology is:",
+      "options": [
+        "Suppressed individual traits",
+        "Suppressing one’s opinions",
+        "Valued subjective experiences",
+        "Personality development",
+        "Attitudinal change"
+      ],
+      "answer": "Valued subjective experiences"
+    },
+    {
+      "question": "Mindfulness is related to wellbeing because it helps in:",
+      "options": [
+        "Shared mental models",
+        "Resistance",
+        "Recall",
+        "Performance buffering",
+        "Resilience"
+      ],
+      "answer": "Resilience"
+    }
+  ],
+  "Week11": [
+    {
+      "question": "Which of the following best defines knowledge?",
+      "options": [
+        "The ability to memorize facts",
+        "Information acquired through learning and experience",
+        "Natural talent or innate abilities",
+        "The capability to solve complex mathematical problems",
+        "Genetic predispositions and inherited traits"
+      ],
+      "answer": "Information acquired through learning and experience"
+    },
+    {
+      "question": "According to the explicit knowledge approach, what are the primary methods for disseminating knowledge assets within an organization?",
+      "options": [
+        "Oral communication and informal meetings",
+        "Sharing experiences and tacit knowledge",
+        "Documents, standard operating procedures, and manuals",
+        "In-person training sessions only",
+        "Individuals cannot articulate their knowledge under any circumstances"
+      ],
+      "answer": "Documents, standard operating procedures, and manuals"
+    },
+    {
+      "question": "Which of the following statements aligns with the concept of knowledge hiding, as mentioned in the text?",
+      "options": [
+        "Hiding knowledge is always considered a negative behaviour by managers.",
+        "Providing partial information is considered a form of deception in knowledge hiding.",
+        "Knowledge hiding may be motivated by positive intentions such as protecting confidentiality or third-party interests.",
+        "All forms of knowledge withholding involve deliberate deception.",
+        "Knowledge hiding is primarily driven by the intent to dominate within the workplace hierarchy"
+      ],
+      "answer": "Knowledge hiding may be motivated by positive intentions such as protecting confidentiality or third-party interests."
+    },
+    {
+      "question": "What distinguishes knowledge hiding from deception according to the text?",
+      "options": [
+        "Knowledge hiding always involves intentional deception.",
+        "Deception is always involved in knowledge hiding.",
+        "Knowledge hiding may involve intentional concealment without deception.",
+        "Deception and knowledge hiding are interchangeable terms.",
+        "Knowledge hiding is inherently a positive behaviour without any deceptive aspects."
+      ],
+      "answer": "Knowledge hiding may involve intentional concealment without deception."
+    },
+    {
+      "question": "What is suggested regarding employees' knowledge hiding behaviour in the organizational context?",
+      "options": [
+        "Employees in organizations with strong knowledge sharing climates tend to engage more in evasive hiding.",
+        "Organizational climate has no influence on any type of knowledge hiding behaviour.",
+        "Employees in organizations with stronger knowledge sharing climates are less likely to engage in evasive knowledge hiding.",
+        "All types of knowledge hiding behaviours are positively influenced by a strong knowledge sharing climate.",
+        "An organization's knowledge sharing climate impacts various forms of knowledge hiding behaviours differently."
+      ],
+      "answer": "Employees in organizations with stronger knowledge sharing climates are less likely to engage in evasive knowledge hiding."
+    },
+    {
+      "question": "Which factor significantly influences the choice of evasive hiding in knowledge withholding, according to the findings?",
+      "options": [
+        "The level of trust between coworkers.",
+        "Complexity of the requested knowledge.",
+        "Job relevance of the knowledge requested.",
+        "Organizational climate and policies.",
+        "Personal motivation of the requester."
+      ],
+      "answer": "Complexity of the requested knowledge."
+    },
+    {
+      "question": "What concept highlights the coexistence of contradictory yet interdependent cooperative and competitive behaviours, as mentioned in the context of knowledge sharing and hiding?",
+      "options": [
+        "Collaboration effect",
+        "Knowledge convergence",
+        "Coopetition",
+        "Paradoxical exchange",
+        "Duality of interaction"
+      ],
+      "answer": "Coopetition"
+    },
+    {
+      "question": "In what scenario does the interplay between knowledge sharing and hiding behaviours generate a positive outcome regarding the impression of the sharer, as highlighted in the text?",
+      "options": [
+        "When employees share all information openly to reduce competitive pressure.",
+        "When knowledge hiding is perceived as entirely destructive by the staff.",
+        "In reactive knowledge sharing, where some information is intentionally hidden, but the sharer still assists and maintains a positive impression.",
+        "When knowledge hiding is limited to non-essential information to maintain individual advantages.",
+        "When knowledge sharing is absent, allowing the sharer to maintain a superior position in the organization."
+      ],
+      "answer": "In reactive knowledge sharing, where some information is intentionally hidden, but the sharer still assists and maintains a positive impression."
+    },
+    {
+      "question": "Which of the following statements best captures the importance of knowledge sharing in organizational effectiveness?",
+      "options": [
+        "Knowledge that is not shared significantly adds to organizational effectiveness.",
+        "Prosocial behaviour primarily focuses on formal job responsibilities, not knowledge sharing.",
+        "Knowledge sharing is essential for boosting organizational effectiveness and adding value.",
+        "Organizational effectiveness is solely dependent on formal job responsibilities, not knowledge sharing.",
+        "Knowledge sharing has a minimal impact on organizational effectiveness compared to other factors."
+      ],
+      "answer": "Knowledge sharing is essential for boosting organizational effectiveness and adding value."
+    },
+    {
+      "question": "What has gained increased attention in recent studies related to knowledge-sharing behaviour?",
+      "options": [
+        "The nature of knowledge and opportunities to share",
+        "Motivation to share knowledge within the organization",
+        "Peer group support in facilitating knowledge sharing",
+        "The culture of the work environment in knowledge exchange",
+        "Individual characteristics influencing knowledge-sharing propensity"
+      ],
+      "answer": "Peer group support in facilitating knowledge sharing"
+    }
+  ],
+  "Week12": [
+    {
+      "question": "Promotive voice involves?",
+      "options": [
+        "Expressing concerns",
+        "Highlight problematic issues",
+        "Constructive feedback"
+      ],
+      "answer": "Constructive feedback"
+    },
+    {
+      "question": "Loyalists are employees who respond to dissatisfaction by paying less attention to quality of work. True or false?",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Voice relates not just to performance evaluations but also to co-workers’ perceptions of the employee. True or False?",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "A natural inclination toward taking initiative and action is:",
+      "options": [
+        "Loyalty",
+        "Whistleblowing",
+        "Prohibitive voice",
+        "Promotive voice",
+        "Proactivity"
+      ],
+      "answer": "Proactivity"
+    },
+    {
+      "question": "Emotions like empathic concern, empathic anger, or guilt in response to someone's suffering can lead to silence. True or false?",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "A form of silence where individuals choose not to speak up or share their thoughts due to concerns about potential negative consequences is called?",
+      "options": [
+        "Diffident silence",
+        "Defensive silence",
+        "Acquiescent silence",
+        "Acquired silence",
+        "Opportunistic silence"
+      ],
+      "answer": "Defensive silence"
+    },
+    {
+      "question": "Withholding issues that are not pertinent to the goals of the team or the manager at the present time is termed as?",
+      "options": [
+        "Silence",
+        "Strategic silence",
+        "Issue relevance",
+        "Issue readiness",
+        "Issue timing"
+      ],
+      "answer": "Issue relevance"
+    },
+    {
+      "question": "What does psychological safety involve?",
+      "options": [
+        "The absence of any workplace challenges or stressors.",
+        "Strict adherence to rigid rules and procedures in the workplace.",
+        "A focus on maintaining individual success at the expense of teamwork.",
+        "Ignoring diverse perspectives and opinions to maintain harmony.",
+        "Encouraging open communication"
+      ],
+      "answer": "Encouraging open communication"
+    },
+    {
+      "question": "How can leaders foster psychological safety?",
+      "options": [
+        "Making clear why employee voice matters",
+        "Giving necessary punishment for poor inputs",
+        "Establishing the infallibility of the leader",
+        "Inviting inputs",
+        "Giving productive response"
+      ],
+      "answer": "i, iv and v"
+    },
+    {
+      "question": "In a psychologically safe environment, one should always feel comfortable leaving no room for conflict. True or False?",
+      "options": ["True", "False"],
+      "answer": "False"
+    }
+  ]
+}

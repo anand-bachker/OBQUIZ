@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     fetch('questions.json')
         .then(response => response.json())
         .then(data => initializeQuiz(data))
@@ -29,7 +29,7 @@ function populateChapters() {
         option.textContent = chapter;
         select.appendChild(option);
     });
-    if(currentChapter) select.value = currentChapter; // Set the current chapter in the dropdown
+    if (currentChapter) select.value = currentChapter; // Set the current chapter in the dropdown
 }
 
 function populateQuestions() {
@@ -68,10 +68,10 @@ function loadQuestion() {
         document.getElementById('chapter-select').value = currentChapter;
         const optionsUl = document.getElementById('options');
         optionsUl.innerHTML = '';
-        
+
         // Copy options to a new array and shuffle it
         const shuffledOptions = questionData.options.slice().sort(() => Math.random() - 0.5);
-        
+
         shuffledOptions.forEach((option, index) => {
             const li = document.createElement('li');
             const button = document.createElement('button');
@@ -83,8 +83,6 @@ function loadQuestion() {
     }
 }
 function checkAnswer(selectedOption, correctAnswer) {
-    console.log('Selected option:', selectedOption);
-    console.log('Correct answer:', correctAnswer);
     const feedback = document.getElementById('feedback');
     feedback.textContent = selectedOption === correctAnswer ? 'Correct!' : 'Wrong, try again!';
     feedback.style.color = selectedOption === correctAnswer ? 'green' : 'red';
@@ -147,12 +145,12 @@ function shuffleChaptersAndQuestions() {
     currentChapter = chapters[Math.floor(Math.random() * chapters.length)];
     const availableQuestions = quizData[currentChapter];
     currentQuestionIndex = Math.floor(Math.random() * availableQuestions.length);
-    loadQuestion();    
+    loadQuestion();
 }
 
 // take keystoke input to navigate between questions and choose the answer
 
-document.addEventListener('keydown', function(event) {
+document.addEventListener('keydown', function (event) {
     if (event.key === 'ArrowRight') {
         loadNextQuestion();
     } else if (event.key === 'ArrowLeft') {
@@ -162,15 +160,15 @@ document.addEventListener('keydown', function(event) {
     } else if (event.key === 'ArrowDown') {
         shuffleChaptersAndQuestions();
     }
+    else {
+        // Select the answer
+        const optionsUl = document.getElementById('options');
 
-    // Select the answer
-    const optionsUl = document.getElementById('options');
-
-    // if a then select first option
-    const key = event.key.toLowerCase();
-    const keyIndex = key.charCodeAt(0) - 97;
-    if (keyIndex >= 0 && keyIndex < optionsUl.childNodes.length) {
-        optionsUl.childNodes[keyIndex].firstChild.click();
+        // if a then select first option
+        const key = event.key.toLowerCase();
+        const keyIndex = key.charCodeAt(0) - 97;
+        if (keyIndex >= 0 && keyIndex < optionsUl.childNodes.length) {
+            optionsUl.childNodes[keyIndex].firstChild.click();
+        }
     }
-
 });

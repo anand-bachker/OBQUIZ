@@ -67,6 +67,34 @@ function checkAnswer(selectedOption, correctAnswer) {
     const feedback = document.getElementById('feedback');
     feedback.textContent = selectedOption === correctAnswer ? 'Correct!' : 'Wrong, try again!';
     feedback.style.color = selectedOption === correctAnswer ? 'green' : 'red';
+
+    // make the correct answer green background
+    const optionsUl = document.getElementById('options');
+    optionsUl.childNodes.forEach((li, index) => {
+        const button = li.firstChild;
+        if (button.textContent.includes(correctAnswer)) {
+            button.style.backgroundColor = 'green';
+            // text white
+            button.style.color = 'white';
+        }
+    });
+
+    // if selected option is wrong, then make it red background
+    if (selectedOption !== correctAnswer) {
+        optionsUl.childNodes.forEach((li, index) => {
+            const button = li.firstChild;
+            if (button.textContent.includes(selectedOption)) {
+                button.style.backgroundColor = 'red';
+                // text white
+                button.style.color = 'white';
+            }
+        });
+    }
+
+    // Disable all buttons
+    optionsUl.childNodes.forEach(li => {
+        li.firstChild.disabled = true;
+    });
 }
 
 function loadNextQuestion() {

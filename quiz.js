@@ -47,7 +47,11 @@ function loadQuestion() {
         document.getElementById('question').textContent = questionData.question;
         const optionsUl = document.getElementById('options');
         optionsUl.innerHTML = '';
-        questionData.options.forEach((option, index) => {
+        
+        // Copy options to a new array and shuffle it
+        const shuffledOptions = questionData.options.slice().sort(() => Math.random() - 0.5);
+        
+        shuffledOptions.forEach((option, index) => {
             const li = document.createElement('li');
             const button = document.createElement('button');
             button.textContent = `${String.fromCharCode(65 + index)}) ${option}`;
@@ -57,7 +61,6 @@ function loadQuestion() {
         });
     }
 }
-
 function checkAnswer(selectedOption, correctAnswer) {
     const feedback = document.getElementById('feedback');
     feedback.textContent = selectedOption === correctAnswer ? 'Correct!' : 'Wrong, try again!';

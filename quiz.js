@@ -186,7 +186,7 @@ gestureZone.addEventListener('touchend', function (event) {
 }, false);
 
 function handleGesture() {
-    const sensitivity = 100;
+    const sensitivity = document.documentElement.clientWidth / 3;
     if (touchendX <= touchstartX - sensitivity) {
         loadNextQuestion();
     }

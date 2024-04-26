@@ -63,8 +63,6 @@ function loadQuestion() {
     const chapterData = quizData[currentChapter];
     if (chapterData && chapterData[currentQuestionIndex]) {
         const questionData = chapterData[currentQuestionIndex];
-        document.getElementById('chapter-name').textContent = `Chapter: ${currentChapter}`;
-        document.getElementById('question-number').textContent = `Question ${questionData.originalIndex + 1}`;
         document.getElementById('question').textContent = questionData.question;
         document.getElementById('question-select').value = currentQuestionIndex;
         document.getElementById('chapter-select').value = currentChapter;
@@ -85,6 +83,8 @@ function loadQuestion() {
     }
 }
 function checkAnswer(selectedOption, correctAnswer) {
+    console.log('Selected option:', selectedOption);
+    console.log('Correct answer:', correctAnswer);
     const feedback = document.getElementById('feedback');
     feedback.textContent = selectedOption === correctAnswer ? 'Correct!' : 'Wrong, try again!';
     feedback.style.color = selectedOption === correctAnswer ? 'green' : 'red';
@@ -149,3 +149,28 @@ function shuffleChaptersAndQuestions() {
     currentQuestionIndex = Math.floor(Math.random() * availableQuestions.length);
     loadQuestion();    
 }
+
+// take keystoke input to navigate between questions and choose the answer
+
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'ArrowRight') {
+        loadNextQuestion();
+    } else if (event.key === 'ArrowLeft') {
+        loadPreviousQuestion();
+    } else if (event.key === 'ArrowUp') {
+        shuffleCurrentQuestions();
+    } else if (event.key === 'ArrowDown') {
+        shuffleChaptersAndQuestions();
+    }
+
+    // Select the answer
+    const optionsUl = document.getElementById('options');
+
+    // if a then select first option
+    const key = event.key.toLowerCase();
+    const keyIndex = key.charCodeAt(0) - 97;
+    if (keyIndex >= 0 && keyIndex < optionsUl.childNodes.length) {
+        optionsUl.childNodes[keyIndex].firstChild.click();
+    }
+
+});

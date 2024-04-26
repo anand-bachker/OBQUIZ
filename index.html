@@ -14,14 +14,14 @@
         <select id="question-select" onchange="changeQuestion(this.value)">
             <!-- Question options will be dynamically inserted here -->
         </select>
-        <div id="chapter-name"></div>
-        <div id="question-number"></div>
         <div id="question"></div>
         <ul id="options"></ul>
+        <div id="button-container"></div>
         <button id="previousButton" onclick="loadPreviousQuestion()">Previous Question</button>
         <button id="nextButton" onclick="loadNextQuestion()">Next Question</button>
         <button id="shuffleQuestions" onclick="shuffleCurrentQuestions()">Shuffle Questions</button>
         <button id="shuffleChapters" onclick="shuffleChaptersAndQuestions()">Shuffle All</button>
+    </div>
         <p id="feedback"></p>
     </div>
     <script src="quiz.js"></script>
